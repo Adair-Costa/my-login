@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=BIZ+UDMincho&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Anybody", cursive;
+  font-family: "BIZ UDMincho", serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: #333333;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #dd1818, #333333);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body h1 {
+  color: #2290c3;
+}
+body form {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 32%;
+  left: 34%;
+  width: 24%;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  color: #ffffff;
+  border-radius: 6px;
+}
+body input, body button {
+  margin-top: 10px;
+  height: 35px;
+  width: 318px;
+  border: none;
+  outline: none;
+}
+body input::placeholder {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 15px;
+  color: #2290c3;
+  padding-left: 1px;
+}
+body button {
+  border-radius: 5px;
+  background-color: #2290c3;
+  height: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+}
+body button:hover {
+  color: #ffffff;
+  background: #009FFF;
+  background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+  background: linear-gradient(to right, #ec2F4B, #009FFF);
+}
+
+@media (max-width: 1218px) {
+  form button {
+    width: 95%;
+  }
+
+  form input {
+    width: 95%;
+  }
+}
+@media (max-width: 378px) {
+  h1 {
+    font-size: 17px;
+  }
+
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 13%;
+  }
+}
+@media (max-width: 310px) {
+  h1 {
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 9%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
